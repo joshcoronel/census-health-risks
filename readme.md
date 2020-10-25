@@ -26,29 +26,29 @@ Requirements
 
     -   [x] State Abbreviations in circles
 
--   [ ] Make data user interactive
+-   [x] Make data user interactive
 
-    -   [ ] x-axis have the following demographics:
+    -   [x] x-axis have the following demographics:
 
-        -   [ ] In Poverty (%)
+        -   [x] In Poverty (%)
 
-        -   [ ] Age (Median)
+        -   [x] Age (Median)
 
-        -   [ ] Household Income (Median)
+        -   [x] Household Income (Median)
 
-    -   [ ] y-axis have the following risk factors:
+    -   [x] y-axis have the following risk factors:
 
-        -   [ ] Obese (%)
+        -   [x] Obese (%)
 
-        -   [ ] Smokes (%)
+        -   [x] Smokes (%)
 
-        -   [ ] Lacks Healthcare (%)
+        -   [x] Lacks Healthcare (%)
 
-    -   [ ] Add click events for each x and y label
+    -   [x] Add click events for each x and y label
 
-    -   [ ] Animate the transitions for the circles’ locations
+    -   [x] Animate the transitions for the circles’ locations
 
-    -   [ ] Animate the transition for the ranges of the axes
+    -   [x] Animate the transition for the ranges of the axes
 
 -   [x] Incorporate d3-tip
 
