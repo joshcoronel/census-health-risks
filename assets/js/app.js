@@ -1,4 +1,3 @@
-// @TODO: YOUR CODE HERE!
 var svgWidth = 960;
 var svgHeight = 500;
 
@@ -62,6 +61,7 @@ function renderXAxes(newXScale, xAxis) {
   return xAxis;
 }
 
+// function used for updating yAxis var upon click on axis label
 function renderYAxes(newYScale, yAxis) {
   var leftAxis = d3.axisLeft(newYScale);
 
@@ -208,7 +208,6 @@ d3.csv("assets/data/data.csv").then(function(data, err) {
     .attr("y", d => yLinearScale(d[chosenYAxis]))
     .attr("dy",-395)
     .classed("stateText", true)
-
 
   // Create group for x-axis labels
   var labelsXGroup = chartGroup.append("g")
